@@ -126,7 +126,7 @@ T = 128nS + 360nS = 488nS
 więc możemy policzyć częstotliwość:
 
 
-f = 1/T = 1/488nS = 2,04918MHz
+f = 1/T = 1/488nS = 2,04918MHz,
 
 
 z czego wynika, że w ciągu jednej sekundy dioda zapali się i zgaśnie **2 049 180** razy.
