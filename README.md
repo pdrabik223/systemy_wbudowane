@@ -14,4 +14,5 @@
 |  9  | i think there's on more   |   [ ] | [ ]   |
 |  10 | or even two               |   [ ] | [ ]   |
 
+      total:    5%  
 
