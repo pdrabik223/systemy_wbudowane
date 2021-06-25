@@ -31,12 +31,12 @@ End				 	                    Koniec programu
 
 | **Instrukcje**| **Czas [ms]** | **Cykle** |
 | :---:         | :---:         |   :---:   |
-|Set	|0.77025        |  	6162
-|Reset	|0.7705         |   	6164
-|Loop	|0.77075        |  	6166
-|Set	|0.771      |    	6168
-|Reset 	|0.77125        |  	6170
-|Loop	|0.7715         |   	6172
+|Set	    |0.77025        |  	    6162    |
+|Reset	    |0.7705         |   	6164    |
+|Loop	    |0.77075        |  	    6166    |
+|Set	    |0.771          |    	6168    |
+|Reset 	    |0.77125        |  	    6170    |
+|Loop	    |0.7715         |   	6172    |
 
 
 Jak wynika z powyższej tabeli, zarówno instrukcja Set, jak i Reset wykonywane są w dwóch taktach zegara. Widać również, że każda z tych instrukcji zajmuje **0,00025 ms**, czyli **250 ns**.<br>

@@ -4,7 +4,7 @@
 |**id**     |**temat**|**written**|**ready_pdf**|
 | :---:                | :---:  | :---: | :---: | 
 |  1  | Wstęp                     |   [X] | [ ]   |
-|  2  | Timer0                    |   [ ] | [ ]   |
+|  2  | Timer0                    |   [x] | [ ]   |
 |  3  | Wyświetlacz LCD           |   [ ] | [ ]   |
 |  4  | Wyświetlacz LED 2         |   [ ] | [ ]   |
 |  5  | Przyciski                 |   [ ] | [ ]   |
