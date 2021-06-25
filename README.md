@@ -15,3 +15,7 @@
 
       total:    18,75%  
 
+
+
+The website:
+[linek](http://std2.phys.uni.lodz.pl/mikroprocesory/)
