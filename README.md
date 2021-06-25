@@ -6,14 +6,14 @@
 |  1  | Wstęp                                               |   [x] | [ ]   |
 |  2  | Timer0                                              |   [x] | [ ]   |
 |  3  | Wyświetlacz LED i LCD                               |   [x] | [ ]   |
-|  4  | Przyciski i klawiatura                              |   [ ] | [ ]   |
+|  4  | Przyciski i klawiatura                              |   [x] | [ ]   |
 |  5  | Zegar                                               |   [ ] | [ ]   |
 |  6  | Pomiar temperatury                                  |   [ ] | [ ]   |
 |  7  | Interfejs RSR232                                    |   [ ] | [ ]   |
 |  8  | Komunikacja w oparciu o <br>technologię podczerwieni|   [ ] | [ ]   |
 
 
-      total:    18,75%  
+      total:    25%  
 
 
 
