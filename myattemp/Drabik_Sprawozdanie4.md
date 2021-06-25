@@ -9,26 +9,26 @@
 
 Celem ćwiczenia jest poznanie metodyki obsługi przycisków, klawiatury matrycowej i klawiatury komputerowej AT.
 
-Klawiatura umożliwia użytkownikowi wprowadzanie danych do działającego już pogramu procesora. Wraz z wyświetlaczem twożą podstawowy komplet urządzen wejścia wyjścia. 
+Klawiatura umożliwia użytkownikowi wprowadzanie danych do działającego już programu procesora. Wraz z wyświetlaczem tworzą podstawowy komplet urządzeń wejścia wyjścia. 
 
-Płytka procesora wyposażona jest w 4 przciski pozwalające na komunikację z programem, lecz to niewiele, lepszym rozwiązaniem jest zewnętrzna klawiatura posiadająca zaczeni więcej przycisków i nieograniczonę ilość ich kompibnacji. 
+Płytka procesora wyposażona jest w 4 przyciski pozwalające na komunikację z programem, lecz to niewiele, lepszym rozwiązaniem jest zewnętrzna klawiatura posiadająca znacznie więcej przycisków i nieograniczonę ilość ich kombinacji. 
 
-Lecz podobnie jak w przypadu poprzednich zajęć stajemy przed problemem dużej ilości sytków które należełoby obsłużyć. kazdy przycisk w klawiaturze należy zaadresować i połączyć z procesorem. To wymaga dużego nakładu pieniężnego i wielu szpulek miedzi. Zamiast bespośredniego podejścia stosuje się podejście matrycoowe. Cechuje się ono dokładnym adresowaniem dużej ilści przycisków przy zastosowaniu minimalnej ilości lini adresowych. Linie układane są w rzędach i kolumnach w taki sposób by ppomiędzy zestawem rżedów i kolumn twożyły się przecięcia, na których układamy przyciski. Po podłączeniu przycisków w odpowiedni sposób wlączony przycisk ktywować będzie jedno z połączen w zestawie rzędów i jedno w kolumnach, wiedząc która z lini w rzędach jest aktywowana i która w kolumnach możemy wywnioskować jaki przycis jest wciśięty. 
+Lecz podobnie jak w przypadku poprzednich zajęć stajemy przed problemem dużej ilości styków które należy obsłużyć. każdy przycisk w klawiaturze należy zaadresować i połączyć z procesorem. To wymaga dużego nakładu pieniężnego i wielu szpulek miedzi. Zamiast bezpośredniego podejścia stosuje się podejście matrycowe. Cechuje się ono dokładnym adresowaniem dużej ilości przycisków przy zastosowaniu minimalnej ilości lini adresowych. Linie układane są w rzędach i kolumnach w taki sposób by pomiędzy zestawem rzędów i kolumn trwożyły się przecięcia, na których układamy przyciski. Po podłączeniu przycisków w odpowiedni sposób, włączony przycisk aktywować będzie jedno z połączeń w zestawie rzędów i jedno w kolumnach, wiedząc która z lini w rzędach jest aktywowana i która w kolumnach możemy wywnioskować jaki przycisk jest wciśnięty. 
 
-To pozwala nam na oszczędność pieniędzu miedzi i czasu, lecz program musi być odpowiednio dostosowany. Mysi istnieć układ tłumaczący dwie wartości (aktywowane połączenie w zestawie rzęów i kolumn) taki układ posiada każda klawiatóra.
+To pozwala nam na oszczędność pieniędzy miedzi i czasu, lecz program musi być odpowiednio dostosowany. Mysi istnieć układ tłumaczący dwie wartości (aktywowane połączenie w zestawie rzędów i kolumn) taki układ posiada każda klawiatura.
 
-Przyciski nęka jeszcze jeden problem, ponieważ są to układy fizyczne, połącznia które łączą procesor z przyciskami nie są idealne, mogą na nich występować fluktuacje natężenia jak i same przyciski mogą w niewielki sposób drgać, tego typu błędy prowadzą do błędnych odczytów. 
+Przyciski nęka jeszcze jeden problem, ponieważ są to układy fizyczne, połączenia które łączą procesor z przyciskami nie są idealne, mogą na nich występować fluktuacje natężenia jak i same przyciski mogą w niewielki sposób drgać, tego typu błędy prowadzą do błędnych odczytów. 
 
-By wyeliminować te przypadki stosuje się algorytm nazwany debouncerem, jest to układ aktywowany po wciścięciu przycisku, który ponownie bada stan przyciusku po upływie kilkudziesięciu milisekund. Jeżeli po upływie tego czasu przycisk nadal jest w ciśnięty, prawdopowobnie wciśięty jest celowo, dopiero wtedy proceso informowany jest o wciśietym przycisku.  
+By wyeliminować te przypadki stosuje się algorytm nazwany debouncerem, jest to układ aktywowany po wciśnięciu przycisku, który ponownie bada stan przycisku po upływie kilkudziesięciu milisekund. Jeżeli po upływie tego czasu przycisk nadal jest w ciśnięty, prawdopodobnie wciśnięty jest celowo, dopiero wtedy procesor informowany jest o wciśniętym przycisku.  
 
 # Instrukcje 
 
--  ```Debounce``` - odpowiedź na problem błędów występujących na połęczeniach przycisków 
+-  ```Debounce``` - odpowiedź na problem błędów występujących na połączeniach przycisków 
 -  ```Getatkbd``` - pobranie z klawiatury id wciśniętego przycisku 
-- ```IF .. THEN``` - warunek pozwalająy rozstrzygnąć stan przycisku 
+- ```IF .. THEN``` - warunek pozwalający rozstrzygnąć stan przycisku 
 
-# Kompomnenty używane przy przeprowadzaniu ćwiczenia 
-- Wyśietlacz LCD
+# Komponenty używane przy przeprowadzaniu ćwiczenia 
+- Wyświetlacz LCD
 - Przyciski umieszczone na płytce procesora 
 
 
@@ -151,4 +151,6 @@ End
 
 # Podsumowanie 
 
-Klawiatura to potężne i konieczne narzędzie, umożliwia ona aktywną komunikację z działającym programem. Lecz klawiatura składająca się z kilku przycisków nie jest dużą pomocą dlatego naturalnym jest stosowanie techniki matrycowania klawiatury.  
+Klawiatura to potężne i konieczne narzędzie, umożliwia ona aktywną komunikację z działającym programem. Lecz klawiatura składająca się z kilku przycisków nie jest dużą pomocą dlatego naturalnym jest stosowanie techniki matrycowania klawiatury.  Pozwala ona w znacznym stopniu zwiększyć potencjał naszego układu.
+
+Lecz klawiatura jest fizycznym komponentem układu cyfrowego, dlatego należy stosować cyfrowe techniki walki z defektami świata fizycznego, takimi jak błędne rozpoznawanie wciśniętego przycisku spowodowane wibracjami na sykach. By rozwiązać ten problem stosuje się "debouncer", algorytm próbkujący san przycisku w czasie.
