@@ -25,7 +25,7 @@ Licznik Timer0 jest 8-bitowy, a więc może zliczyć 256 impulsów. Timer1 jest 
 ```Stop```							Sterowanie licznikiem
 
 
-```Counter0 = wart_poczatkowa```				Do licznika Timer0 zostaje wpisana wartość początkowa      wart_poczatkowa
+```Counter0 = wart_poczatkowa```				Do licznika Timer0 zostaje wpisana wartość początkowa      wart_początkowa
 
 
 ```ON INTERRUPT```						Obsługa przerwań
