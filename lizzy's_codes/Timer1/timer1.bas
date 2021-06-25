@@ -1,0 +1,1 @@
+'jak napisac kod, ktory by wykorzystal timer1 do liczenia jednej sekundy???
