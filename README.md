@@ -10,10 +10,10 @@
 |  5  | Zegar                                               |   [x] | [ ]   |
 |  6  | Pomiar temperatury                                  |   [x] | [ ]   |
 |  7  | Interfejs RSR232                                    |   [x] | [ ]   |
-|  8  | Komunikacja w oparciu o <br>technologię podczerwieni|   [ ] | [ ]   |
+|  8  | Komunikacja w oparciu o <br>technologię podczerwieni|   [x] | [ ]   |
 
 
-      total:    43.75%  
+      total:    50%  
 
 
 The website:

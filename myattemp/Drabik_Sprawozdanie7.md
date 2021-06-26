@@ -16,8 +16,8 @@ Ramka to (zazwyczaj) 1 bajt informacji poprzedzonych bitem startu i zakończony 
 # Instrukcje kontroli magistrali
 |**polecenie** | **definicja**|
 | :---: | :---: |
-| ```print```| wysyła ciąg znaków|
-|```input```|pobiera ciąg znaków|
+| `print`| wysyła ciąg znaków|
+|`input`|pobiera ciąg znaków|
 |```echo on```| włącza wyświetlanie informacji<br> pobieranych za pomocą funkcji input|
 |```echo off```| wyłącza wyświetlanie informacji<br> pobieranych za pomocą funkcji input|
 |```ischarwaiting```| informuje o pojawieniu się znaku w buforze |
