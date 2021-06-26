@@ -15,7 +15,7 @@
 <td></td>
 </tr>
 <tr>
-<td style="text-align:left"><strong>Data:</strong><br> 6.05.2021r.</td>
+<td style="text-align:left"><strong>Data:</strong><br> 5.05.2021r.</td>
 <td style="text-align:left"><strong>Wykonał:</strong> <br> Piotr Drabik</td>
 <td></td>
 <td></td>
