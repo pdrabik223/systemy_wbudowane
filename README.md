@@ -8,12 +8,12 @@
 |  3  | Wyświetlacz LED i LCD                               |   [x] | [ ]   |
 |  4  | Przyciski i klawiatura                              |   [x] | [ ]   |
 |  5  | Zegar                                               |   [x] | [ ]   |
-|  6  | Pomiar temperatury                                  |   [ ] | [ ]   |
+|  6  | Pomiar temperatury                                  |   [x] | [ ]   |
 |  7  | Interfejs RSR232                                    |   [ ] | [ ]   |
 |  8  | Komunikacja w oparciu o <br>technologię podczerwieni|   [ ] | [ ]   |
 
 
-      total:    31.25%  
+      total:    37.5%  
 
 
 The website:
