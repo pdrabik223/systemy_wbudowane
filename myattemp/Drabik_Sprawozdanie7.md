@@ -6,10 +6,10 @@
 
 # Opis ćwiczenia 
 
-Zegary, termometry i wyświetlacze w połączeniu z procesorem są bardzo użyteczne, pozwalają na pobieranie analizowanie i wyświetlanie informacji. Lecz odosobniony procesor choć we właściwych rękach jest poteżnym narzędziem, nie jest za bardzo uzyteczny. Lepszym rozwiązaniem jest umożliwić tej pojedyń czej komurce kntakt z wieloma innymi mu podobnymi, albo lepiej połączyć tego typu procesor z komputerem i udistępnić komunikację pomiędzy nimi. 
+Zegary, termometry i wyświetlacze w połączeniu z procesorem są bardzo użyteczne, pozwalają na pobieranie analizowanie i wyświetlanie informacji. Lecz odosobniony procesor choć we właściwych rękach jest potężnym narzędziem, nie jest za bardzo użyteczny. Lepszym rozwiązaniem jest umożliwić tej pojedyńczej komórce kontakt z wieloma innymi mu podobnymi, albo lepiej połączyć tego typu procesor z komputerem i umożliwić komunikację pomiędzy nimi. 
 
 
-To jest własnie zadaniem  interfejsu szeregowego RS232, kominukacja mikroprocesora z stacjonanym komputerem. Oczywiście nie jest to proste zadanie ze względu na różnice między procesorami i mnogość kombinacji. Warto pamiętać iż interfejs musi stabilnie działac niezalaznie od modelu komputera czy jego parametrów. Dlatego producenci interfejsu zdecydowali się na zastosowanie "ramki".
+To jest właśnie zadaniem  interfejsu szeregowego RS232, komunikacja mikroprocesora z stacjonarnym komputerem. Oczywiście nie jest to proste zadanie ze względu na różnice między procesorami i mnogość kombinacji. Warto pamiętać iż interfejs musi stabilnie działać niezalanie od modelu komputera czy jego parametrów. Dlatego producenci interfejsu zdecydowali się na zastosowanie "ramki".
 
 Ramka to (zazwyczaj) 1 bajt informacji poprzedzonych bitem startu i zakończony kilkoma bitami stopu. 
 
@@ -88,3 +88,6 @@ End
 
 # Podsumowanie 
 
+Komunikacja pomiędzy urządzaniami jest wręcz konieczna przy budowaniu większych, bardziej użytecznych systemów. Możliwość wysyłania i odbierania danych do i z komputera otwiera wiele drzwi, umożliwia wiele projektów. Jest jednak niestety  skomplikowanym problemem, lecz dostępne są narzędzia upraszczające to zadanie. Jednym z nich jest interfejs RS232, oczywiście samo kodowanie nie wystarczy potrzebny jest jeszcze Konwerter USB UART, umożliwiający komunikację pomiędzy interfejsami
+USB oraz RS232.
+Jest jeszcze możliwość zastosowania technologi bezprzewodowej. Interfejs pozostaje niezmieniony tylko sposób łączenia urządzeń się zmieni.
