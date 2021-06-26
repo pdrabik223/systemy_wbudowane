@@ -9,11 +9,11 @@
 |  4  | Przyciski i klawiatura                              |   [x] | [ ]   |
 |  5  | Zegar                                               |   [x] | [ ]   |
 |  6  | Pomiar temperatury                                  |   [x] | [ ]   |
-|  7  | Interfejs RSR232                                    |   [ ] | [ ]   |
+|  7  | Interfejs RSR232                                    |   [x] | [ ]   |
 |  8  | Komunikacja w oparciu o <br>technologię podczerwieni|   [ ] | [ ]   |
 
 
-      total:    37.5%  
+      total:    43.75%  
 
 
 The website:
