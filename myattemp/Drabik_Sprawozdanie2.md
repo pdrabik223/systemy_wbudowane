@@ -42,7 +42,7 @@ Licznik Timer0 jest 8-bitowy, a więc może zliczyć 256 impulsów. Timer1 jest 
 
 Kod programu, który ma odmierzać 1s:
 
-```
+```VB
 $regfile = "m8def.dat"				Informuje kompilator o pliku dyrektyw mikroprocesora
 $crystal = 8000000				Informuje kompilator o częstotliwości oscylatora taktującego 
            mikrokontroler
@@ -129,7 +129,7 @@ x = 127,5
 
 ## Kod generujący dany sygnał PWM 
 
-``` 
+``` VB 
 $regfile = "m8def.dat"				Informuje kompilator o pliku dyrektyw mikroprocesora
 
 $crystal = 8000000				Informuje kompilator o częstotliwości oscylatora taktującego

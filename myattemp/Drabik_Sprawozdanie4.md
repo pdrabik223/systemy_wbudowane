@@ -34,7 +34,7 @@ By wyeliminować te przypadki stosuje się algorytm nazwany debouncerem, jest to
 
 # Program obsługujący Klawiaturę matrycową
 
-```
+```VB
 $regfile = "m8def.dat"				Informuje kompilator o pliku dyrektyw mikroprocesora
 $crystal = 8000000				Informuje kompilator o częstotliwości oscylatora taktującego 
            mikrokontroler
@@ -110,7 +110,7 @@ Return
 
 # Program wąż reagujący na wciśnięcie przycisku płytki 
 
-```
+```VB
 $regfile = "m8def.dat"
 $crystal = 8000000
 Config Portd = Output

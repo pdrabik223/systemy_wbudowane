@@ -57,7 +57,8 @@ z czego wynika, że w ciągu jednej sekundy dioda zapali się i zgaśnie **1 329
 # Instrukcja Toggle
 
 Aby sprawdzić działanie instrukcji Toggle musimy przygotować kod:
-```
+
+```VB
 $regfile = "m8def.dat"   	            Informuje kompilator o pliku dyrektyw mikroprocesora
 $crystal  =  8000000	               	Informuje kompilator o częstotliwości oscylatora taktującego mikrokontrolera
 
@@ -101,7 +102,7 @@ Widzimy, że Toggle miga ponad dwa razy wolniej niż instrukcje Set/Reset.
 
 Aby sprawdzić działanie programu w języku ASSEMBLER musimy przygotować kod:
 
-```
+```VB
 .nolist
 .include”m8def.inc”
 ldi r16, 0b00000001

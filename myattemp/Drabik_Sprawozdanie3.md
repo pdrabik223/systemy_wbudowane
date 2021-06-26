@@ -100,7 +100,7 @@ Algorytm odlicza od wartości 9999 do 0, wyświetlając aktualny stan licznika n
 Po osiągnięciu wartości zerowej wyświetlona zostanie wiadomość.  
 
 
-```
+```VB
 
 $regfile = "m8def.dat"
 $crystal = 8000000

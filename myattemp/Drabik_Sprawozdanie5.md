@@ -28,7 +28,7 @@ Timer używa taktowania procesora do odmierzania czasu, licząc kolejne impulsy 
 
 # Program Timer
 
-```
+```VB
 $regfile="m8def.dat"
 $crystal=8000000
 
@@ -67,7 +67,7 @@ Zegar liczący sekundy niestety nie jest datą. Należy upływ sekund przeliczy�
 
 Ten program odlicza i wyświetla czas 
 
-```
+```VB
 $regfile = "m8def.dat"
 $crystal = 8000000
 
