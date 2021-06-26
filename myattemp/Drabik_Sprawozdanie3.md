@@ -21,7 +21,7 @@
 <td></td>
 </tr>
 <tr>
-<td style="text-align:left"><strong>Godzina:</strong><br> 14:40?</td>
+<td style="text-align:left"><strong>Godzina:</strong><br> 12:30</td>
 <td style="text-align:left"><strong>II rok Informatyka Stosowana</strong></td>
 <td><strong>Ocena i uwagi prowadzącego:</strong></td>
 <td><strong>Prowadzący:</strong><br> dr hab. Witold Kozłowski</td>

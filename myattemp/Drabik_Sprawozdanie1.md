@@ -2,7 +2,7 @@
 | :---                          | :--- | --- | --- | 
 |**Grupa:**<br> **B**            | **Temat:** <br> Instrukcje sterujące  | | |
 |**Data:**<br> 08.04.2021       | **Wykonał:** <br> Piotr Drabik        | | |
-|**Godzina:**<br> 14:40?        | **II rok Informatyka Stosowana**      | **Ocena i uwagi prowadzącego:**   | **Prowadzący:**<br> dr hab. Witold Kozłowski|
+|**Godzina:**<br> 12:30        | **II rok Informatyka Stosowana**      | **Ocena i uwagi prowadzącego:**   | **Prowadzący:**<br> dr hab. Witold Kozłowski|
 
 # Opis zadania
 
@@ -13,7 +13,7 @@ Podczas zadania sprawdzimy wartości czasowe równoważnego programu napisanego 
 # Instrukcje Set/Reset
 
 Aby sprawdzić działanie instrukcji **Set** i **Reset** musimy przygotować kod:
-```
+```VB
 $regfile = "m8def.dat"   	            Informuje kompilator o pliku dyrektyw mikroprocesora
 $crystal  =  8000000	               	Informuje kompilator o częstotliwości oscylatora taktującego mikrokontrolera
 

@@ -2,7 +2,7 @@
 | :---                          | :--- | --- | --- | 
 |**Grupa:**<br> **B**            | **Temat:** <br> Zegar  | | |
 |**Data:**<br> 20.05.2021       | **Wykonał:** <br> Piotr Drabik        | | |
-|**Godzina:**<br> 14:40?        | **II rok Informatyka Stosowana**      | **Ocena i uwagi prowadzącego:**   | **Prowadzący:**<br> dr hab. Witold Kozłowski|
+|**Godzina:**<br> 12:30        | **II rok Informatyka Stosowana**      | **Ocena i uwagi prowadzącego:**   | **Prowadzący:**<br> dr hab. Witold Kozłowski|
 
 # Opis ćwiczenia 
 
