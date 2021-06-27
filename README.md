@@ -1,8 +1,8 @@
 
 # THE PLAN 
 
-|**id**     |**temat**                                  |**written**|**ready_pdf**|**date**
-| :---:                | :---:  | :---: | :---: | 
+|**id**     |**temat**                                  |**written**|**ready_pdf**|**date**|
+| :---:                | :---:  | :---: | :---: | :---:|
 |  1  | Wstęp                                               |   [x] | [ ] | 31.03  |  
 |  2  | Timer0                                              |   [x] | [ ] | 21.04  |  
 |  3  | Wyświetlacz LED i LCD                               |   [x] | [ ] | 28.04  |  
