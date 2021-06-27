@@ -1,7 +1,7 @@
 |Systemy wbudowane Laboratorium | | | |
 | :---                          | :--- | --- | --- | 
 |**Grupa:**<br> **B**            | **Temat:** <br> Zastosowanie licznika-czasomierza  | | |
-|**Data:**<br> 22.04.2021r.       | **Wykonał:** <br> Piotr Drabik        | | |
+|**Data:**<br> 21.04.2021r.       | **Wykonał:** <br> Piotr Drabik        | | |
 |**Godzina:**<br> 12:30        | **II rok Informatyka Stosowana**      | **Ocena i uwagi prowadzącego:**   | **Prowadzący:**<br> dr hab. Witold Kozłowski|
 
 

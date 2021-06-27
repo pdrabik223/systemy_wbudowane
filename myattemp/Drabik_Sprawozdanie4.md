@@ -1,7 +1,7 @@
 |Systemy wbudowane Laboratorium | | | |
 | :---                          | :--- | --- | --- | 
 |**Grupa:**<br> **B**            | **Temat:** <br> Obsługa przycisków  | | |
-|**Data:**<br> 18.05.2021       | **Wykonał:** <br> Piotr Drabik        | | |
+|**Data:**<br> 05.05.2021       | **Wykonał:** <br> Piotr Drabik        | | |
 |**Godzina:**<br> 12:30       | **II rok Informatyka Stosowana**      | **Ocena i uwagi prowadzącego:**   | **Prowadzący:**<br> dr hab. Witold Kozłowski|
 
 

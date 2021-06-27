@@ -1,7 +1,7 @@
 |Systemy wbudowane Laboratorium | | | |
 | :---                          | :--- | --- | --- | 
 |**Grupa:**<br> **B**            | **Temat:** <br> Komunikacja w oparciu o technologię podczerwieni   | | |
-|**Data:**<br> 03.06.2021       | **Wykonał:** <br> Piotr Drabik        | | |
+|**Data:**<br> 02.06.2021       | **Wykonał:** <br> Piotr Drabik        | | |
 |**Godzina:**<br> 12:30        | **II rok Informatyka Stosowana**      | **Ocena i uwagi prowadzącego:**   | **Prowadzący:**<br> dr hab. Witold Kozłowski|
 
 

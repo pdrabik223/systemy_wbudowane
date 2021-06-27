@@ -1,7 +1,7 @@
 |Systemy wbudowane Laboratorium | | | |
 | :---                          | :--- | --- | --- | 
 |**Grupa:**<br> **B**            | **Temat:** <br> Zegar  | | |
-|**Data:**<br> 20.05.2021       | **Wykonał:** <br> Piotr Drabik        | | |
+|**Data:**<br> 12.05.2021       | **Wykonał:** <br> Piotr Drabik        | | |
 |**Godzina:**<br> 12:30        | **II rok Informatyka Stosowana**      | **Ocena i uwagi prowadzącego:**   | **Prowadzący:**<br> dr hab. Witold Kozłowski|
 
 # Opis ćwiczenia 

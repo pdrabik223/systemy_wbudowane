@@ -1,7 +1,7 @@
 |Systemy wbudowane Laboratorium | | | |
 | :---                          | :--- | --- | --- | 
 |**Grupa:**<br> **B**            | **Temat:** <br> Instrukcje sterujące  | | |
-|**Data:**<br> 08.04.2021       | **Wykonał:** <br> Piotr Drabik        | | |
+|**Data:**<br> 31.03.2021       | **Wykonał:** <br> Piotr Drabik        | | |
 |**Godzina:**<br> 12:30        | **II rok Informatyka Stosowana**      | **Ocena i uwagi prowadzącego:**   | **Prowadzący:**<br> dr hab. Witold Kozłowski|
 
 # Opis zadania
@@ -26,6 +26,7 @@ Loop			 	                    Koniec pętli głównej programu
 End				 	                    Koniec programu
 ```
 
+<P style="page-break-before: always">
 
 ## Zależności czasowe instrukcji Set/Reset odczytane  z symulatora programu BASCOM-AVR
 
@@ -41,7 +42,7 @@ End				 	                    Koniec programu
 
 Jak wynika z powyższej tabeli, zarówno instrukcja Set, jak i Reset wykonywane są w dwóch taktach zegara. Widać również, że każda z tych instrukcji zajmuje **0,00025 ms**, czyli **250 ns**.<br>
 
-Podłączając  oscyloskop do naszego układu możemy odczytać, że stan „1” na oscyloskopie trwa 252nS, a zbocze opadające ( „0” )  – 500nS, wartość ta jednak wynika z wykonania instrukcji Reset w dwóch taktach, oraz instrukcji Loop również w dwóch taktach. Wynika z tego czas wykonywania instrukcji **Reset = 250ns** oraz **Loop = 250ns**. Wartości te pokrywają się prawie idealnie z wartościami odczytanymi z oscyloskopu.<br>
+Podłączając  oscyloskop do naszego układu możemy odczytać, że stan „1” na oscyloskopie trwa 252ns, a zbocze opadające ( „0” )  – 500ns, wartość ta jednak wynika z wykonania instrukcji Reset w dwóch taktach, oraz instrukcji Loop również w dwóch taktach. Wynika z tego czas wykonywania instrukcji **Reset = 250ns** oraz **Loop = 250ns**. Wartości te pokrywają się prawie idealnie z wartościami odczytanymi z oscyloskopu.<br>
 
 Wynika z tego, że okres  zapalenia i zgaszenia diody trwa  
 
@@ -50,9 +51,11 @@ T = 252 ns + 500 ns = 752 ns,
  więc możemy policzyć częstotliwość:
 
 
-f = 1/T = 1/752nS = 1,3297MHz,
+f = 1/T = 1/752ns = 1,3297MH
 
 z czego wynika, że w ciągu jednej sekundy dioda zapali się i zgaśnie **1 329 700** razy.
+
+<P style="page-break-before: always">
 
 # Instrukcja Toggle
 
@@ -83,26 +86,27 @@ End				 	                    Koniec programu
 |   Toggle  |	0.77225 |	6178    |
 
 
-Z powyższej tabeli można odczytać, że instrukcja **Toggle** wykonuje się w czterech taktach zegara, oraz że czas wykonania instrukcji **Toggle** wynosi **0,0005mS**, czyli **500nS**.<br>
-Po podłączeniu oscyloskopu do naszego układu możemy odczytać, że stan „1” trwa **744nS**, podobnie jak czas „0” logicznego – również **744nS**.<br> 
+Z powyższej tabeli można odczytać, że instrukcja **Toggle** wykonuje się w czterech taktach zegara, oraz że czas wykonania instrukcji **Toggle** wynosi **0,0005mS**, czyli **500ns**.<br>
+Po podłączeniu oscyloskopu do naszego układu możemy odczytać, że stan „1” trwa **744ns**, podobnie jak czas „0” logicznego – również **744ns**.<br> 
 Wynika z tego, że okres zapalenia i zgaszenia diody trwa  
 
-T = 744nS + 744nS = 1 488nS
+T = 744ns + 744ns = 1 488ns
 
  więc możemy policzyć częstotliwość:
 
 
-f = 1/T = 1/1 488nS = 0,62720MHz<br>
+f = 1/T = 1/1 488ns = 0,62720MHz<br>
 
 z czego wynika, że w ciągu jednej sekundy dioda zapali się i zgaśnie **627 200** razy.
 Widzimy, że Toggle miga ponad dwa razy wolniej niż instrukcje Set/Reset.
 
+<P style="page-break-before: always">
 
 #	Program w języku ASSEMBLER
 
 Aby sprawdzić działanie programu w języku ASSEMBLER musimy przygotować kod:
 
-```VB
+```Assembler
 .nolist
 .include”m8def.inc”
 ldi r16, 0b00000001
@@ -117,17 +121,17 @@ ldi r17, 0b00000000
 
 ```
 
-Wartości dla programu napisanego w ASSEMBLERZE możemy odczytać jedynie za pomocą oscyloskopu. Obserwujemy, że czas trwania „1” logicznej wynosi 128nS, a czas trwania „0” logicznego wynosi **360nS**.
+Wartości dla programu napisanego w ASSEMBLERZE możemy odczytać jedynie za pomocą oscyloskopu. Obserwujemy, że czas trwania „1” logicznej wynosi 128ns, a czas trwania „0” logicznego wynosi **360ns**.
 
 
 Wynika z tego, że okres zapalenia i zgaszenia diody trwa  
 
-T = 128nS + 360nS = 488nS 
+T = 128ns + 360ns = 488ns 
 
 więc możemy policzyć częstotliwość:
 
 
-f = 1/T = 1/488nS = 2,04918MHz,
+f = 1/T = 1/488ns = 2,04918MHz
 
 
 z czego wynika, że w ciągu jednej sekundy dioda zapali się i zgaśnie **2 049 180** razy.
