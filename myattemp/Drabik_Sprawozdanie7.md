@@ -23,6 +23,7 @@ Ramka to (zazwyczaj) 1 bajt informacji poprzedzonych bitem startu i zakończony 
 |```ischarwaiting```| informuje o pojawieniu się znaku w buforze |
 |```waitkey```| wstrzymuje działanie programu do pojawienia się znaku w buforze|
 
+<P style="page-break-before: always">
 
 # Program ilustrujący połączenie procesora z konsolą komputera
 

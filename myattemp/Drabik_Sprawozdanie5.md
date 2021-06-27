@@ -22,9 +22,11 @@ W niemczech istnieje stacja nadawcza DCF-77, transmitująca wskazania tamtejszeg
 
 # Zegar Timer0
 
-My na zajęciach nie jesteśmy w stanie kożystać z technologi zegarów atomowych, więc polegać musimy na inneych metodach odmierzania czasu. Jedną z takich metod jest funkcja Timer. 
+My na zajęciach nie jesteśmy w stanie korzystać z technologi zegarów atomowych, więc polegać musimy na innych metodach odmierzania czasu. Jedną z takich metod jest funkcja Timer. 
 
 Timer używa taktowania procesora do odmierzania czasu, licząc kolejne impulsy wysyłane przez zegar i znając jego taktowanie możemy wywnioskować po ilu impulsach minie sekunda. 
+
+<P style="page-break-before: always">
 
 # Program Timer
 
@@ -64,6 +66,7 @@ Odmierz_1s:
 
 Zegar liczący sekundy niestety nie jest datą. Należy upływ sekund przeliczyć na minuty, minuty na godziny, i taki układ godzin minut i sekund można nazwać licznikiem. Należy jeszcze umieścić informacje o starcie licznika i dodać godzinę startu do wskazać owego timera. w tej konstelacji licznik staje się zegarem. Pozostają jeszcze kwestie dni godzin i sekund przestępnych, stref czasowych, różnych czasów zimowego i letniego gdy dwa razy w roku przestawiamy zegarki o godzinę do przodu i godzinę do tyłu. WIelka Brytania używa zegarów dwunastko godzinnych i by indykować w której części dnia się aktualnie znajdują używają opisów AM i PM.
 
+<P style="page-break-before: always">
 
 Ten program odlicza i wyświetla czas 
 
@@ -135,4 +138,4 @@ End
 
 Poprawna obsługa czasu nie jest trywialnym zadaniem, przez ludzką naturę i potrzebę użyteczności temat stał się niebywale skomplikowany. Zaprezentowane programy tylko ujawniają czubek góry lodowej jaką jest wyświetlanie aktualnego czasu. 
 
-Na nasze pogrzeby program oparty na funkcji Timer1 wystarcza w zupełności.
+Na nasze potrzeby program oparty na funkcji Timer1 wystarcza w zupełności.

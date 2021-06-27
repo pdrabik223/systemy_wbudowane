@@ -15,6 +15,8 @@ Podczerwień to spektrum promieniowania elektromagnetycznego, częstotliwości z
 
 Urządzenia oparte o podczerwień takie jak odbiorniki i nadajniki stosują kodowanie sygnału często RC5 (w oparciu tę technologię kreować będziemy własne układy), w kodowaniu RC5 czas trwania jednego bitu to 1,78ms a jedna paczka informacja składa sie z **14-bitów**.
 
+<P style="page-break-before: always">
+
 O to schemat wiadomości kodowanej systemem Manchester:
 
 |**no bitu**|**przykładowa<br>wiadomość**|**funkcja**|
@@ -50,7 +52,7 @@ Logiczna **1** trwa **2.25ms** transmisji a logiczne **0** trwa **1.125ms**.
 |```Getrc5```  | pobranie adresu oraz komendy z nadajnika |
 |```Rc5send``` | wysłanie informacji  |
 
-
+<P style="page-break-before: always">
 
 # Fizyczne komponenty potrzebne do zrealizowania ćwiczenia 
 
@@ -58,7 +60,6 @@ Logiczna **1** trwa **2.25ms** transmisji a logiczne **0** trwa **1.125ms**.
 
 - Odbiornik podczerwieni VS1838
 - Nadajnik podczerwieni  IR NEC
-
 
 
 # Program obłupujący transfer danych w kodowaniu RC5

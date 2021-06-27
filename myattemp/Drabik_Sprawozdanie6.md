@@ -21,6 +21,9 @@ Firmą produkującą takie układy miernicze jest DALLAS Semiconductor(Maxim), o
 
 To rozwiązanie jest wysoce nieefektywne, lepszym pomysłem jest cykliczne próbkowanie każdego z termometrów podłączonych po tych samych liniach DQ i masy. To rozwiązanie wymaga niewielkiego oprogramowania a oszczędza piny procesora (których mamy ograniczoną ilość). 
 
+
+<P style="page-break-before: always">
+
 By pomóc w rozstrzyganiu które z urządzeń pomiarowych właśnie wysyła informacje o aktualnej temperaturze, firma DALLAS zastosowała system ID, każdy z termometrów wychodzących z ich fabryk ma przypisany do siebie unikalny numer. Na podstawie tego numeru rozstrzygnąć możemy z jakim urządzeniem właśnie się komunikujemy.
 
 By w praktyce pokazać sposób użycia technologi opracujemy następujący program.
@@ -36,13 +39,15 @@ By w praktyce pokazać sposób użycia technologi opracujemy następujący progr
 | ```1wreset```             | reset magistrali| 
 |```1wread(2)            ```| odczyt zmierzonej temperatury|
 |```Waitms 750           ```| opóźnienie na czas pomiaru|
-|```Writeeeprom ID(j)    ```| zapisanie numeru id do pamięci EEPROM|
+|```Writeeeprom ID(j)    ```| zapisanie numeru id do pamięci EPROM|
 
 # Fizyczne komponenty potrzebne do zrealizowania ćwiczenia 
 
 
 - Układ DS1820
 - Wyświetlacz LCD 
+
+<P style="page-break-before: always">
 
 # Program mierzący temperaturę
 
