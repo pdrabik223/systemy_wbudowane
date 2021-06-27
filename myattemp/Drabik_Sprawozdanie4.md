@@ -108,7 +108,10 @@ Mul_kl:
 Return
 ```
 
-# Program wąż reagujący na wciśnięcie przycisku płytki 
+
+<P style="page-break-before: always">
+
+# Program wąż, reagujący na wciśnięcie przycisku płytki 
 
 ```VB
 $regfile = "m8def.dat"
@@ -126,7 +129,6 @@ Set Portb.0
  Reset direction
 
 Do
-
    If button = 0 Then
       Waitms 50
       Toggle direction
@@ -135,20 +137,16 @@ Do
      Loop Until button = 1
 
    End If
-
-
    If direction = 1 Then
 
        Rotate Portd, Left
    Else
        Rotate PORTD , Right
    End If
-
    Waitms 100
 Loop
 End
 ```
-
 # Podsumowanie 
 
 Klawiatura to potężne i konieczne narzędzie, umożliwia ona aktywną komunikację z działającym programem. Lecz klawiatura składająca się z kilku przycisków nie jest dużą pomocą dlatego naturalnym jest stosowanie techniki matrycowania klawiatury.  Pozwala ona w znacznym stopniu zwiększyć potencjał naszego układu.

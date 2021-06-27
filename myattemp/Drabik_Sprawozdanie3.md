@@ -66,6 +66,8 @@ Dzięki tej technice oszczędzamy na połączeniach pomiędzy wyświetlaczem a p
 
 Zapalanie kolejnych wyświetlaczy nazywane jest przemiataniem.
 
+<P style="page-break-before: always">
+
 # Tabela podstawowych znaków
 
 
@@ -206,6 +208,8 @@ Wyświetlacz ciekłokrystaliczny, LCD to urządzenie wyświetlające obraz, któ
 
 Wyświetlacze stosowane są ze względu na ich energooszczędność, kompaktowy rozmiar jak i wszechstronność.
 
+<P style="page-break-before: always">
+
 # Kilka instrukcji potrzebnych do konfiguracji wyświetlacza lcd 
 
 
@@ -222,4 +226,4 @@ Wyświetlacze stosowane są ze względu na ich energooszczędność, kompaktowy 
 
 Do sterowanie wieloma wyświetlaczami LED używa się techniki multipleksowania, która ogranicza ilość potrzebnych części do wykonania układu tym samym obniżając koszta wykonania układu, należy jedynie pamiętać by częstotliwość odwietrzania każdego z multipleksowanych wyświetlaczy była większa niż ~25Hz.
 
-Popularnymi wyświetlaczami korzystającymi z technologi LED są wyświetlacze 7seg, składają się one z 8 segmentów często tytułowanych A-G, kropka oznaczana jest znakiem P,DP lub H.
+Popularnymi wyświetlaczami korzystającymi z technologi LED są wyświetlacze 7seg, składają się one z 8 segmentów często tytułowanych A-G, kropka oznaczana jest znakiem P, DP lub H.
