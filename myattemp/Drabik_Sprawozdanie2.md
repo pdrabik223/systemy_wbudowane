@@ -36,9 +36,9 @@ Licznik Timer0 jest 8-bitowy, a więc może zliczyć 256 impulsów. Timer1 jest 
 
 ```DISABLE```						Wyłączenie zgłaszania przerwań
 
+<P style="page-break-before: always">
+
 # Odmierzanie 1s - Timer0
-
-
 
 Kod programu, który ma odmierzać 1s:
 
@@ -78,6 +78,7 @@ Odmierz_1s:					Początek podprogramu, uruchamiany jest, gdy wystąpi
 
 Uruchomienie programu dla układu z wewnętrznym rezonatorem RC skutkuje ukazaniem się na oscyloskopie czasu **968ms** zamiast odmierzanej 1s.  Różnica wydaje się niewielka jednak w skali roku jest to prawie 12 dni różnicy! Aby wyeliminować ten błąd powinniśmy użyć ```zewnętrznego rezonatora kwarcowego```, wtedy odmierzana będzie dokładnie 1s.
 
+<P style="page-break-before: always">
 
 # Generowanie sygnału PWM
 
@@ -126,6 +127,8 @@ x - 50%
 100% x = 12 750%
 
 x = 127,5
+
+<P style="page-break-before: always">
 
 ## Kod generujący dany sygnał PWM 
 

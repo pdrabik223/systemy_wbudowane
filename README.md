@@ -3,8 +3,8 @@
 
 |**id**     |**temat**                                  |**written**|**ready_pdf**|**date**|
 | :---:                | :---:  | :---: | :---: | :---:|
-|  1  | Wstęp                                               |   [x] | [ ] | 31.03  |  
-|  2  | Timer0                                              |   [x] | [ ] | 21.04  |  
+|  1  | Wstęp                                               |   [x] | [x] | 31.03  |  
+|  2  | Timer0                                              |   [x] | [x] | 21.04  |  
 |  3  | Wyświetlacz LED i LCD                               |   [x] | [ ] | 28.04  |  
 |  4  | Przyciski i klawiatura                              |   [x] | [ ] | 05.05  |  
 |  5  | Zegar                                               |   [x] | [ ] | 12.05  |  
@@ -13,7 +13,7 @@
 |  8  | Komunikacja w oparciu o <br>technologię podczerwieni|   [x] | [ ] | 02.06  |  
 
 
-      total:    50%  
+      total:    60,25%  
 
 
 The website:
